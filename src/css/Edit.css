@@ -1,0 +1,19 @@
+.edit_container
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-right: 500px;
+    padding-left: 500px;
+
+}
+.edit
+{
+    
+    align-content: center;
+}
+.react-switch
+{
+    margin-top: 10px;
+    
+}
