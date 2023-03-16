@@ -1,0 +1,63 @@
+.MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    
+}
+.MuiCard-root
+{
+    border-radius: 20px !important;
+    margin: 20px;
+    margin-bottom: 30px;
+} 
+.box
+{
+    margin: 20px;
+    padding-left: 20px;
+    margin-right: 30px;
+    width: fit-content;
+    display: 'inline-block'; 
+    max-width: '2px';
+    transform: 'scale(0.8)';
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-shrink
+{
+    transform: translate(14px, -2px) scale(0.75) !important;
+}
+.MuiCard-root {
+    overflow: visible;
+    box-shadow: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 3px solid bisque;
+    shape-outside: margin-box;
+}
+.MuiTypography-root.MuiTypography-h5
+{
+    color: red;
+    padding-bottom: 20px;
+    
+}
+.card_input
+{
+    padding-top: 10px;
+}
+.msg
+{
+    color: '#34d2d8';
+    align-content: center;
+    
+}
+
+.paper
+{
+    padding: 10px;
+    margin-top: 20px;
+    padding-right: 40px;
+    border:2px silver white ;
+    align-content: center;
+
+}
+
