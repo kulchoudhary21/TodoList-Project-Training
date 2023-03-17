@@ -1,0 +1,11 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
+{
+    max-width: 100%;
+    border-style: solid;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding: 0x;
+    border-width: 30px;
+    background-color: snow;
+    margin: 10px;
+}

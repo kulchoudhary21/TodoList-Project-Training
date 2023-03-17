@@ -1,0 +1,8 @@
+# ignore all files in any directory named node_modeules
+node_modules/
+
+#ignore thr public file
+public/
+
+#ignore the README.MD file
+/README.MD
