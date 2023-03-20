@@ -1,0 +1,22 @@
+.country
+{
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid palegreen;
+    width:fit-content;
+    border-radius: 10px;
+    background-color: tomato;
+    
+}
+select
+{
+    border: 3px solid navy;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    padding: 10px;
+}   
+

@@ -26,6 +26,16 @@ function Header() {
                   Convertor
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/customer">
+                  Add Customer
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/country">
+                  Country Details
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
