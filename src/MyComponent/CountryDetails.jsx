@@ -1,36 +1,38 @@
 import { useState } from "react";
 import "../css/country.css";
-let count = true;
+import { countries } from "./daa";
 export function CountryDetails() {
-  const [country, setCountry] = useState(["Select Option"]);
-  let countries = [
-    { country: "india", cities: ["Indore", "ujjain", "Dewas", "mumbai"] },
-    { country: "australia", cities: ["Indore", "ujjain", "Dewas", "mumbai"] },
-    { country: "pakistan", cities: ["Islamabad", "lahore", "karachi"] },
-  ];
-  let getCt = () => {
-    const select = document.getElementById("select").value;
-    console.log(count);
-    countries.map((l, i) => {
-      if (count) {
-        setCountry((arr) => [...arr, l.country]);
-      }
-      if (countries.length == i + 1) count = false;
+  const [city, setCity] = useState([]);
 
-      if (l.country == select) {
-        console.log(countries[i].cities);
-      }
-    });
-  };
+  const selectCountry = (e) => {
+    console.log(countries)
+    // const city = e.target.value
+    const a = countries.filter(res => res.country === e.target.value)
+    console.log(a[0].cities)
+
+    setCity(a[0].cities)
+  }
 
   return (
     <div className="country">
       <label style={{ padding: "10px" }}>Choose a Country:</label>
       <div>
-        <select id="select" name="d1" onClick={getCt}>
-          {country.map((i) => {
-            return <option value={i}>{i}</option>;
+        <select id="select" onChange={selectCountry}>
+          {countries.map((i) => {
+            return (
+              <option name={i.country} key={i.country} value={i.country}>
+                {i.country}
+              </option>
+            );
           })}
+        </select>
+
+        <select id="select"  >
+            return (
+              <option key="k">
+                {city}
+              </option>
+            );
         </select>
       </div>
     </div>
